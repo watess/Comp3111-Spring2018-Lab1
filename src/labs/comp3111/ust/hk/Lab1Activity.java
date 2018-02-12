@@ -12,13 +12,6 @@ public class Lab1Activity {
 			sum+=arr[i];
 		}
 		System.out.println("Sum of the num ber is "+sum);//Implemented the sum of 10 integers
-		int minimum=arr[0];
-		int maximum=arr[0];
-		for(int i=1;i<arr.length;i++)
-		{
-			if(arr[i]<minimum) {minimum=arr[i];}
-			if(arr[i]>maximum) {maximum=arr[i];}
-		}
-		System.out.println("Min = "+minimum+"; Max= "+maximum);//Implemented the min/max functionalities
+		
 	}
 }
