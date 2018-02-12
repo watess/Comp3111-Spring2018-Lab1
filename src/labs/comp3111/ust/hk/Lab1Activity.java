@@ -12,6 +12,8 @@ public class Lab1Activity {
 			sum+=arr[i];
 		}
 		System.out.println("Sum of the num ber is "+sum);//Implemented the sum of 10 integers
+		int minimum=arr[0];
+		int maximum=arr[0];
 		
 	}
 }
